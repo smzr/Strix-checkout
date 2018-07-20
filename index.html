@@ -49,21 +49,55 @@
         </div>
       </div>
       <h4>Choose Payment Method</h4>
-      <div class="row">
-        <div class="col-6">
-          <div class="payment-btn">
+      <div class="row" id="tabs">
+        <div class="col-6 active">
+          <a href="#paypal" class="payment-btn">
             <i class="fa fa-paypal"></i>
             <p>PayPal</p>
-          </div>
+          </a>
         </div>
         <div class="col-6">
-          <div class="payment-btn">
+          <a href="#creditcard" class="payment-btn">
             <i class="fa fa-cc-visa"></i>
             <p>Credit Card</p>
-          </div>
+          </a>
+        </div>
+      </div>
+      <div id="payment-container">
+        <div id="paypal" class="payment-content" style="display: block;">
+          <form>
+            <div class="form-element">
+              <label for="name">First Name</label>
+              <input name="name" type="text" required>
+            </div>
+
+            <div class="form-element">
+              <label for="email">Email</label>
+              <input name="email" type="email" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Continue to PayPal</button>
+          </form>
+        </div>
+        <div id="creditcard" class="payment-content">
+          <form>
+            <div class="form-element">
+              <label for="name">First Name</label>
+              <input name="name" type="text" required>
+            </div>
+
+            <div class="form-element">
+              <label for="email">Email</label>
+              <input name="email" type="email" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Continue to Visa Checkout</button>
+          </form>
         </div>
       </div>
     </div>
   </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script type="text/javascript" src="tabswitch2.js"></script>
 </body>
 </html>

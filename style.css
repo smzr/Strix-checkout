@@ -87,7 +87,13 @@ h2 {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  margin-top: 20px; }
+  height: 100%;
+  max-height: 120px;
+  text-decoration: none;
+  color: #505960; }
+  .payment-btn:hover {
+    text-decoration: none;
+    color: #505960; }
   .payment-btn i {
     display: inline-block;
     font-size: 25pt; }
@@ -97,5 +103,29 @@ h2 {
     margin-left: 10px;
     font-size: 18pt;
     font-weight: bold; }
+
+.payment-content {
+  display: none; }
+
+.active a {
+  border-color: #246ee9; }
+
+#tabs {
+  margin: 50px 0; }
+
+form {
+  min-height: 600px; }
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  text-align: left; }
+  .form-element label {
+    margin-bottom: 25px; }
+  .form-element input {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: solid 2px #eaecf1;
+    padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */

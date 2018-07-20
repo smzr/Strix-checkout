@@ -58,6 +58,7 @@ h2 {
   text-align: left;
   max-width: inherit;
   margin-top: 50px;
+  margin-bottom: 50px;
   border-color: white;
   border-width: 3px;
   box-shadow: 0px 15px 50px -10px rgba(0, 0, 0, 0.2); }
@@ -70,12 +71,31 @@ h2 {
 
 .list-group-item {
   display: flex;
-  margin: 0; }
+  margin: 0;
+  padding-left: 0; }
 
 .card-footer {
   text-align: right;
   background-color: white; }
   .card-footer p {
     margin: 0; }
+
+.payment-btn {
+  border: solid 2px #eaecf1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px; }
+  .payment-btn i {
+    display: inline-block;
+    font-size: 25pt; }
+  .payment-btn p {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 18pt;
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

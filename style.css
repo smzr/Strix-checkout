@@ -1,0 +1,81 @@
+html, body {
+  font-family: 'Questrial', sans-serif;
+  background-position: center; }
+
+*, ::before, ::after {
+  box-sizing: border-box; }
+
+#header {
+  padding-top: 70px;
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png") repeat;
+  height: 500px;
+  width: 100%;
+  text-align: center; }
+
+.content-wrap {
+  max-width: 700px;
+  height: 100%;
+  margin: auto; }
+
+.title-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; }
+
+#back-btn {
+  color: #246ee9; }
+  #back-btn i {
+    display: inline-block; }
+  #back-btn p {
+    margin-left: 6px;
+    display: inline-block;
+    font-weight: bold; }
+
+h1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  font-weight: bolder;
+  color: #246ee9;
+  font-size: 40pt; }
+
+#page-title {
+  color: #9da5b2;
+  margin-bottom: 100px; }
+  #page-title i {
+    display: inline-block; }
+  #page-title p {
+    margin-right: 6px;
+    display: inline-block;
+    font-weight: bold; }
+
+h2 {
+  font-weight: bold; }
+
+.card {
+  text-align: left;
+  max-width: inherit;
+  margin-top: 50px;
+  border-color: white;
+  border-width: 3px;
+  box-shadow: 0px 15px 50px -10px rgba(0, 0, 0, 0.2); }
+
+.card-header {
+  margin: 0; }
+  .card-header p {
+    margin: 0;
+    padding: 0; }
+
+.list-group-item {
+  display: flex;
+  margin: 0; }
+
+.card-footer {
+  text-align: right;
+  background-color: white; }
+  .card-footer p {
+    margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
